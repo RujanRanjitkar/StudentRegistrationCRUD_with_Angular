@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "7c87b10c-21d0-4eeb-9c2f-5ee4bf43b918",
+		"name": "Angular",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27797723"
+	},
+	"item": [
+		{
+			"name": "saveStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentName\": \"Rujan\",\r\n    \"address\": \"ktm\",\r\n    \"mobile\": \"9843\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/student/saveStudent",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"student",
+						"saveStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllStudent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/student/getAllStudent",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"student",
+						"getAllStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateStudent",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/student/updateStudent/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"student",
+						"updateStudent",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteStudent",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/student/deleteStudent/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"student",
+						"deleteStudent",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getStudentById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/student/getStudentById/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"student",
+						"getStudentById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
